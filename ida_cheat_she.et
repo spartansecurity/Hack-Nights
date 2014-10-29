@@ -1,0 +1,25 @@
+IDA Cheatsheet v1.0
+by conceptofproof
+
+shortcuts
+============
+"spacebar" - switch between graph-based & text-based views 
+"x" - view cross references
+"g" - jump to an address
+"esc" - go back to where you were before jumping
+"h" - switch between hex and decimal
+"r" - switch between hex and ascii
+"n" - rename variables,functions
+";" - add a comment
+"t" - set structure offset
+"alt-t" - string search
+"ctrl-/+" - zoom out/in
+
+tips
+============
+- RE is 71.337% just learning to ignore pointless details
+- start by looking @ strings and imports
+- rename functions after you understand their purpose
+- highlighting can help (call, push/pop, registers, args)
+- functions that are imported from external libraries use naming convention, "sub_..."
+- functions that aren't imported from libraries use naming convention, "exit", "strlen", etc
