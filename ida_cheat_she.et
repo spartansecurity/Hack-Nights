@@ -15,6 +15,14 @@ shortcuts
 "alt-t" - string search
 "ctrl-/+" - zoom out/in
 
+edge colors
+============
+normal blue - normal edge
+bold blue - take this loop
+green - condition is met. branch taken.
+red - condition is not met. branch is not taken.
+blinking (only in debugger) - next path to take in flow of execution
+
 tips
 ============
 - RE is 71.337% just learning to ignore pointless details
