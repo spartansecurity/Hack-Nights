@@ -12,6 +12,10 @@ shortcuts
 "n" - rename variables,functions
 ";" - add a comment
 "t" - set structure offset
+"f2" - set a breakpoint
+"f9" - start debugging
+"f7" - step into
+"f8" - step over
 "alt-t" - string search
 "ctrl-/+" - zoom out/in
 
@@ -26,6 +30,7 @@ blinking (only in debugger) - next path to take in flow of execution
 tips
 ============
 - RE is 71.337% just learning to ignore pointless details
+- write pseudocode. use debugger if necessary to aid in this process.
 - start by looking @ strings and imports
 - rename functions after you understand their purpose
 - highlighting can help (call, push/pop, registers, args)
