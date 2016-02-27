@@ -1,0 +1,31 @@
+rayting@HWU-SERVER:~$ sudo iptables -L -n
+[sudo] password for rayting: 
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+fail2ban-ssh  tcp  --  0.0.0.0/0            0.0.0.0/0            multiport dports 22
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain fail2ban-ssh (1 references)
+target     prot opt source               destination         
+DROP       all  --  115.146.127.210      0.0.0.0/0           
+DROP       all  --  115.239.228.6        0.0.0.0/0           
+DROP       all  --  115.239.228.7        0.0.0.0/0           
+DROP       all  --  222.161.4.149        0.0.0.0/0           
+DROP       all  --  183.136.216.3        0.0.0.0/0           
+DROP       all  --  218.203.54.156       0.0.0.0/0           
+DROP       all  --  183.136.216.4        0.0.0.0/0           
+DROP       all  --  115.239.228.9        0.0.0.0/0           
+DROP       all  --  222.186.15.239       0.0.0.0/0           
+DROP       all  --  82.112.51.167        0.0.0.0/0           
+DROP       all  --  181.49.29.52         0.0.0.0/0           
+DROP       all  --  222.161.4.147        0.0.0.0/0           
+DROP       all  --  61.143.236.193       0.0.0.0/0           
+DROP       all  --  61.174.50.140        0.0.0.0/0           
+DROP       all  --  218.2.0.120          0.0.0.0/0           
+RETURN     all  --  0.0.0.0/0            0.0.0.0/0           
+rayting@HWU-SERVER:~$ 
