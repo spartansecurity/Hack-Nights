@@ -1,0 +1,168 @@
+Feb  1 07:53:02 HWU-SERVER sshd[19221]: Received disconnect from 115.239.228.16: 11:  [preauth]
+Feb  1 08:16:34 HWU-SERVER sshd[19237]: Received disconnect from 115.239.228.14: 11:  [preauth]
+Feb  1 08:39:47 HWU-SERVER sshd[19255]: Received disconnect from 115.239.228.16: 11:  [preauth]
+Feb  1 09:03:31 HWU-SERVER sshd[19301]: Received disconnect from 115.231.222.45: 11:  [preauth]
+Feb  1 09:41:41 HWU-SERVER sshd[19333]: Received disconnect from 115.231.223.170: 11:  [preauth]
+Feb  1 10:03:30 HWU-SERVER sshd[19378]: Received disconnect from 115.239.228.34: 11:  [preauth]
+Feb  1 10:21:43 HWU-SERVER sshd[19399]: Connection closed by 72.9.158.62 [preauth]
+Feb  1 10:26:56 HWU-SERVER sshd[19401]: Received disconnect from 115.239.228.12: 11:  [preauth]
+Feb  1 10:48:34 HWU-SERVER sshd[19419]: Received disconnect from 115.239.228.34: 11:  [preauth]
+Feb  1 11:09:41 HWU-SERVER sshd[19472]: Received disconnect from 115.239.228.15: 11:  [preauth]
+Feb  1 11:26:51 HWU-SERVER sshd[19482]: Accepted password for rayting from 192.168.1.122 port 51629 ssh2
+Feb  1 11:26:51 HWU-SERVER sshd[19482]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 11:27:02 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/sbin/iptables -L -n
+Feb  1 11:27:02 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 11:27:02 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 11:27:20 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/usr/bin/vim /etc/fail2ban/jail.local
+Feb  1 11:27:20 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 11:27:27 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 11:27:39 HWU-SERVER sshd[19482]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 11:28:34 HWU-SERVER gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Feb  1 11:28:46 HWU-SERVER sshd[19586]: Received disconnect from 115.239.228.34: 11:  [preauth]
+Feb  1 11:28:46 HWU-SERVER polkitd(authority=local): Operator of unix-session:/org/freedesktop/ConsoleKit/Session49 FAILED to authenticate to gain authorization for action org.debian.pkexec.gnome-system-log.run for unix-process:19588:353055259 [/bin/sh /usr/bin/gnome-system-log-pkexec] (owned by unix-user:rayting)
+Feb  1 11:28:46 HWU-SERVER pkexec[19590]: rayting: Error executing command as another user: Request dismissed [USER=root] [TTY=unknown] [CWD=/home/rayting] [COMMAND=/usr/bin/gnome-system-log]
+Feb  1 11:28:54 HWU-SERVER polkitd(authority=local): Operator of unix-session:/org/freedesktop/ConsoleKit/Session49 successfully authenticated as unix-user:rayting to gain TEMPORARY authorization for action org.debian.pkexec.gnome-system-log.run for unix-process:19596:353056126 [/bin/sh /usr/bin/gnome-system-log-pkexec] (owned by unix-user:rayting)
+Feb  1 11:28:54 HWU-SERVER pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Feb  1 11:28:54 HWU-SERVER pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Feb  1 11:28:54 HWU-SERVER pkexec[19598]: rayting: Executing command [USER=root] [TTY=unknown] [CWD=/home/rayting] [COMMAND=/usr/bin/gnome-system-log]
+Feb  1 11:30:08 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/usr/bin/vim /var/log/auth.log
+Feb  1 11:30:08 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 11:30:19 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 11:48:13 HWU-SERVER sshd[19708]: Received disconnect from 115.239.228.11: 11:  [preauth]
+Feb  1 12:08:06 HWU-SERVER sshd[19746]: Received disconnect from 115.239.228.16: 11:  [preauth]
+Feb  1 12:27:41 HWU-SERVER sshd[19768]: Received disconnect from 115.239.228.11: 11:  [preauth]
+Feb  1 12:47:19 HWU-SERVER sshd[19787]: Received disconnect from 115.231.218.130: 11:  [preauth]
+Feb  1 12:58:49 HWU-SERVER sshd[19826]: Accepted password for rayting from 192.168.1.122 port 52755 ssh2
+Feb  1 12:58:49 HWU-SERVER sshd[19826]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 13:07:26 HWU-SERVER sshd[19942]: Received disconnect from 115.231.223.170: 11:  [preauth]
+Feb  1 13:26:08 HWU-SERVER sshd[19979]: Invalid user a from 115.146.127.210
+Feb  1 13:26:08 HWU-SERVER sshd[19979]: input_userauth_request: invalid user a [preauth]
+Feb  1 13:26:08 HWU-SERVER sshd[19979]: pam_unix(sshd:auth): check pass; user unknown
+Feb  1 13:26:08 HWU-SERVER sshd[19979]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=115.146.127.210 
+Feb  1 13:26:10 HWU-SERVER sshd[19979]: Failed password for invalid user a from 115.146.127.210 port 35353 ssh2
+Feb  1 13:26:10 HWU-SERVER sshd[19979]: Connection closed by 115.146.127.210 [preauth]
+Feb  1 13:27:51 HWU-SERVER sshd[19987]: Received disconnect from 115.239.228.14: 11:  [preauth]
+Feb  1 13:48:43 HWU-SERVER sshd[20006]: Received disconnect from 115.231.222.45: 11:  [preauth]
+Feb  1 14:09:37 HWU-SERVER sshd[20057]: Received disconnect from 115.231.218.130: 11:  [preauth]
+Feb  1 14:31:32 HWU-SERVER sshd[20071]: Received disconnect from 115.239.228.16: 11:  [preauth]
+Feb  1 14:33:44 HWU-SERVER gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Feb  1 14:39:47 HWU-SERVER sshd[19826]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 14:42:26 HWU-SERVER sshd[20241]: Accepted password for rayting from 192.168.1.122 port 54071 ssh2
+Feb  1 14:42:26 HWU-SERVER sshd[20241]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 14:49:02 HWU-SERVER sshd[20241]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 14:52:25 HWU-SERVER sshd[20413]: Received disconnect from 115.231.223.170: 11:  [preauth]
+Feb  1 15:13:35 HWU-SERVER sshd[20462]: Received disconnect from 115.239.228.16: 11:  [preauth]
+Feb  1 15:36:42 HWU-SERVER sshd[20472]: Received disconnect from 115.239.228.12: 11:  [preauth]
+Feb  1 15:43:22 HWU-SERVER sshd[20485]: Connection closed by 54.146.87.28 [preauth]
+Feb  1 15:43:23 HWU-SERVER sshd[20487]: Connection closed by 54.146.87.28 [preauth]
+Feb  1 15:43:24 HWU-SERVER sshd[20486]: Connection closed by 54.146.87.28 [preauth]
+Feb  1 15:58:43 HWU-SERVER sshd[20531]: Received disconnect from 115.231.218.131: 11:  [preauth]
+Feb  1 16:12:26 HWU-SERVER sshd[20544]: Accepted password for rayting from 192.168.1.122 port 56181 ssh2
+Feb  1 16:12:26 HWU-SERVER sshd[20544]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 16:13:36 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/vim sshd_config
+Feb  1 16:13:36 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 16:13:37 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 16:13:53 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/vim sshd_config
+Feb  1 16:13:53 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 16:14:56 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 16:15:14 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/vim ssh_config
+Feb  1 16:15:14 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 16:15:23 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 16:15:30 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/vim /etc/motd
+Feb  1 16:15:30 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 16:15:58 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 16:16:00 HWU-SERVER sshd[20544]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 16:16:08 HWU-SERVER sshd[20651]: Accepted password for rayting from 192.168.1.122 port 56195 ssh2
+Feb  1 16:16:08 HWU-SERVER sshd[20651]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 16:17:06 HWU-SERVER sshd[20651]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 16:20:42 HWU-SERVER sshd[20753]: Received disconnect from 115.239.228.12: 11:  [preauth]
+Feb  1 16:43:17 HWU-SERVER sshd[20766]: Received disconnect from 115.231.218.131: 11:  [preauth]
+Feb  1 17:05:12 HWU-SERVER sshd[20809]: Received disconnect from 115.231.218.130: 11:  [preauth]
+Feb  1 17:38:26 HWU-SERVER sshd[20830]: Accepted password for rayting from 192.168.1.1 port 34180 ssh2
+Feb  1 17:38:26 HWU-SERVER sshd[20830]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 17:38:28 HWU-SERVER sshd[20835]: Received disconnect from 192.168.1.1: 11: disconnected by user
+Feb  1 17:38:28 HWU-SERVER sshd[20830]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 18:14:39 HWU-SERVER sshd[20982]: Connection closed by 192.168.1.122 [preauth]
+Feb  1 18:18:21 HWU-SERVER sshd[20992]: Accepted password for rayting from 192.168.1.122 port 59404 ssh2
+Feb  1 18:18:21 HWU-SERVER sshd[20992]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 18:18:44 HWU-SERVER sshd[20992]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 18:19:35 HWU-SERVER sshd[21083]: Connection closed by 192.168.1.122 [preauth]
+Feb  1 18:19:46 HWU-SERVER sshd[21085]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=router.asus.com  user=rayting
+Feb  1 18:19:49 HWU-SERVER sshd[21085]: Failed password for rayting from 192.168.1.1 port 59407 ssh2
+Feb  1 18:19:54 HWU-SERVER sshd[21085]: Accepted password for rayting from 192.168.1.1 port 59407 ssh2
+Feb  1 18:19:54 HWU-SERVER sshd[21085]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 18:20:31 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/sbin/iptables -L -n
+Feb  1 18:20:31 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 18:20:31 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 18:21:15 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/usr/sbin/service fail2ban stop
+Feb  1 18:21:15 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 18:21:17 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 18:21:18 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/sbin/iptables -L -n
+Feb  1 18:21:18 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 18:21:18 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 18:21:31 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/usr/bin/vim /etc/fail2ban/jail.local
+Feb  1 18:21:31 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 18:22:22 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 18:22:27 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/usr/sbin/service fail2ban start
+Feb  1 18:22:27 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 18:22:27 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 18:22:29 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/sbin/iptables -L -n
+Feb  1 18:22:29 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 18:22:29 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 18:22:43 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/sbin/iptables --help
+Feb  1 18:22:43 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 18:22:43 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 18:23:35 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/sbin/iptables -L -n
+Feb  1 18:23:35 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 18:23:35 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 18:39:20 HWU-SERVER sshd[21361]: Accepted password for rayting from 192.168.1.122 port 60203 ssh2
+Feb  1 18:39:20 HWU-SERVER sshd[21361]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 18:39:22 HWU-SERVER sshd[21361]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 18:40:58 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/sbin/iptables -L -n
+Feb  1 18:40:58 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 18:40:58 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 18:41:00 HWU-SERVER sshd[21090]: Received disconnect from 192.168.1.1: 11: disconnected by user
+Feb  1 18:41:00 HWU-SERVER sshd[21085]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 18:43:26 HWU-SERVER sshd[21456]: Accepted password for rayting from 192.168.1.122 port 61608 ssh2
+Feb  1 18:43:26 HWU-SERVER sshd[21456]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 18:43:36 HWU-SERVER sshd[21456]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 18:48:23 HWU-SERVER sshd[21551]: Invalid user test from 115.146.127.210
+Feb  1 18:48:23 HWU-SERVER sshd[21551]: input_userauth_request: invalid user test [preauth]
+Feb  1 18:48:23 HWU-SERVER sshd[21551]: pam_unix(sshd:auth): check pass; user unknown
+Feb  1 18:48:23 HWU-SERVER sshd[21551]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=115.146.127.210 
+Feb  1 18:48:24 HWU-SERVER sshd[21551]: Failed password for invalid user test from 115.146.127.210 port 59316 ssh2
+Feb  1 18:48:25 HWU-SERVER sshd[21551]: Connection closed by 115.146.127.210 [preauth]
+Feb  1 21:04:07 HWU-SERVER sshd[21736]: User root from 183.136.216.4 not allowed because not listed in AllowUsers
+Feb  1 21:04:07 HWU-SERVER sshd[21736]: input_userauth_request: invalid user root [preauth]
+Feb  1 21:04:11 HWU-SERVER sshd[21736]: Received disconnect from 183.136.216.4: 11:  [preauth]
+Feb  1 21:14:10 HWU-SERVER sshd[21749]: User root from 115.239.228.7 not allowed because not listed in AllowUsers
+Feb  1 21:14:10 HWU-SERVER sshd[21749]: input_userauth_request: invalid user root [preauth]
+Feb  1 21:14:10 HWU-SERVER sshd[21749]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=115.239.228.7  user=root
+Feb  1 21:14:12 HWU-SERVER sshd[21749]: Failed password for invalid user root from 115.239.228.7 port 39801 ssh2
+Feb  1 21:14:15 HWU-SERVER sshd[21749]: Failed password for invalid user root from 115.239.228.7 port 39801 ssh2
+Feb  1 21:32:26 HWU-SERVER sshd[21765]: Accepted password for rayting from 192.168.1.122 port 50617 ssh2
+Feb  1 21:32:26 HWU-SERVER sshd[21765]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 21:32:43 HWU-SERVER sshd[21765]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 21:32:48 HWU-SERVER sshd[21855]: Accepted password for rayting from 192.168.1.122 port 50623 ssh2
+Feb  1 21:32:48 HWU-SERVER sshd[21855]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 21:33:10 HWU-SERVER sshd[21855]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 21:33:23 HWU-SERVER sshd[21946]: Accepted password for rayting from 192.168.1.122 port 50632 ssh2
+Feb  1 21:33:23 HWU-SERVER sshd[21946]: pam_unix(sshd:session): session opened for user rayting by (uid=0)
+Feb  1 21:34:02 HWU-SERVER sshd[21946]: pam_unix(sshd:session): session closed for user rayting
+Feb  1 22:01:15 HWU-SERVER gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Feb  1 22:01:54 HWU-SERVER polkitd(authority=local): Operator of unix-session:/org/freedesktop/ConsoleKit/Session49 successfully authenticated as unix-user:rayting to gain TEMPORARY authorization for action org.freedesktop.udisks.filesystem-mount-system-internal for system-bus-name::1.156 [/usr/lib/gvfs/gvfs-gdu-volume-monitor] (owned by unix-user:rayting)
+Feb  1 22:06:19 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/usr/bin/gedit
+Feb  1 22:06:19 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 22:07:07 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 22:07:32 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/bin/cp /media/2842832c-50d7-4acc-a19e-e5796f9fd655/var/log/auth.log /home/rayting
+Feb  1 22:07:32 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 22:07:32 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 22:07:56 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/bin/chown rayting auth.log
+Feb  1 22:07:56 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 22:07:56 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 22:09:58 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/usr/bin/nautilus
+Feb  1 22:09:58 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)
+Feb  1 22:10:05 HWU-SERVER sudo: pam_unix(sudo:session): session closed for user root
+Feb  1 22:11:12 HWU-SERVER sshd[22390]: Connection closed by 115.239.228.4 [preauth]
+Feb  1 22:12:01 HWU-SERVER sudo:  rayting : TTY=pts/2 ; PWD=/home/rayting ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /media/usb0/Usr
+Feb  1 22:12:01 HWU-SERVER sudo: pam_unix(sudo:session): session opened for user root by rayting(uid=0)

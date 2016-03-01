@@ -1,0 +1,34 @@
+2015-02-01 07:35:15,685 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.6
+2015-02-01 07:35:16,380 fail2ban.filter : INFO   Log rotation detected for /var/log/auth.log
+2015-02-01 07:53:04,471 fail2ban.filter : INFO   Log rotation detected for /var/log/auth.log
+2015-02-01 13:26:12,904 fail2ban.actions: WARNING [ssh] Ban 115.146.127.210
+2015-02-01 18:21:16,077 fail2ban.server : INFO   Stopping all jails
+2015-02-01 18:21:17,001 fail2ban.actions: WARNING [ssh] Unban 192.168.1.122
+2015-02-01 18:21:17,010 fail2ban.actions.action: ERROR  iptables -D fail2ban-ssh -s 192.168.1.122 -j DROP returned 100
+2015-02-01 18:21:17,010 fail2ban.actions: WARNING [ssh] Unban 218.2.0.120
+2015-02-01 18:21:17,019 fail2ban.actions: WARNING [ssh] Unban 61.174.50.140
+2015-02-01 18:21:17,027 fail2ban.actions: WARNING [ssh] Unban 61.143.236.193
+2015-02-01 18:21:17,036 fail2ban.actions: WARNING [ssh] Unban 222.161.4.147
+2015-02-01 18:21:17,045 fail2ban.actions: WARNING [ssh] Unban 181.49.29.52
+2015-02-01 18:21:17,054 fail2ban.actions: WARNING [ssh] Unban 82.112.51.167
+2015-02-01 18:21:17,063 fail2ban.actions: WARNING [ssh] Unban 222.186.15.239
+2015-02-01 18:21:17,072 fail2ban.actions: WARNING [ssh] Unban 115.239.228.9
+2015-02-01 18:21:17,081 fail2ban.actions: WARNING [ssh] Unban 183.136.216.4
+2015-02-01 18:21:17,089 fail2ban.actions: WARNING [ssh] Unban 218.203.54.156
+2015-02-01 18:21:17,098 fail2ban.actions: WARNING [ssh] Unban 183.136.216.3
+2015-02-01 18:21:17,107 fail2ban.actions: WARNING [ssh] Unban 222.161.4.149
+2015-02-01 18:21:17,116 fail2ban.actions: WARNING [ssh] Unban 115.239.228.7
+2015-02-01 18:21:17,125 fail2ban.actions: WARNING [ssh] Unban 115.239.228.6
+2015-02-01 18:21:17,134 fail2ban.actions: WARNING [ssh] Unban 115.146.127.210
+2015-02-01 18:21:17,151 fail2ban.jail   : INFO   Jail 'ssh' stopped
+2015-02-01 18:21:17,152 fail2ban.server : INFO   Exiting Fail2ban
+2015-02-01 18:22:27,512 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.6
+2015-02-01 18:22:27,513 fail2ban.jail   : INFO   Creating new jail 'ssh'
+2015-02-01 18:22:27,557 fail2ban.jail   : INFO   Jail 'ssh' uses Gamin
+2015-02-01 18:22:27,682 fail2ban.filter : INFO   Added logfile = /var/log/auth.log
+2015-02-01 18:22:27,682 fail2ban.filter : INFO   Set maxRetry = 2
+2015-02-01 18:22:27,683 fail2ban.filter : INFO   Set findtime = 600
+2015-02-01 18:22:27,683 fail2ban.actions: INFO   Set banTime = -1
+2015-02-01 18:22:27,752 fail2ban.jail   : INFO   Jail 'ssh' started
+2015-02-01 18:48:25,444 fail2ban.actions: WARNING [ssh] Ban 115.146.127.210
+2015-02-01 21:14:14,834 fail2ban.actions: WARNING [ssh] Ban 115.239.228.7
